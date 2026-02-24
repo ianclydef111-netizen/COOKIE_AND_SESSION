@@ -1,0 +1,80 @@
+/* General Reset */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #be05fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Card Styling for Index */
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border-top: 6px solid #007bff;
+    width: 500px;
+}
+
+/* Form Elements */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Feedback and Links */
+.error-msg {
+    color: #d9534f;
+    background: #fdf7f7;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    margin-bottom: 15px;
+}
+
+.toggle-link {
+    display: block;
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.logout-btn {
+    color: #d9534f;
+    text-decoration: none;
+    font-weight: bold;
+}
